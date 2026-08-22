@@ -98,7 +98,7 @@ flowchart TB
 | `mem_write`      | Output    | 1     |
 | `done`           | Output    | 1     |
 
-![image alt]()
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/a0d3f954d6e9e85e9ce635d1deef6c9ccae10bb1/screenshots/DMA_top.jpeg)
 
 The DMA controller operates between a control interface and a shared memory interface.
 The CPU or external controller programs the transfer parameters:
