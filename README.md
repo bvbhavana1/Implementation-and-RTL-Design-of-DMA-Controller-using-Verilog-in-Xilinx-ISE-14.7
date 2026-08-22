@@ -738,8 +738,8 @@ Spartan-6
 | Bonded IOBs                  |       86 |       102 |     **84%** |
 | BUFG/BUFGCTRL                |        1 |        16 |      **6%** |
 
-Device Utilization
-![image alt]()
+Device Utilization Summary
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/a5701dbead40957bf099b667c3268c4131c0652c/reports/DMA_device_utilization_summary.png)
 
 # Resource Interpretation
 The DMA controller has a relatively small computational footprint:
