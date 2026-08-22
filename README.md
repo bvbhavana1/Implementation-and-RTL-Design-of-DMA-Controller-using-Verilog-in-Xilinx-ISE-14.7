@@ -589,7 +589,7 @@ RTL Schematic :
 ![image alt]()
 
 Gate-level Netlist :
-![image alt]()
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/cabc5ac05274cb536f7c786344f8624d442919e2/screenshots/DMA_syn.jpeg)
 
 ## Synthesis Flow
 The RTL was synthesized using:
