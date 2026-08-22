@@ -582,8 +582,14 @@ mem[0103] = DD
          DMA TEST PASSED
 ======================================
 ```
-Simulation Console
+Simulation Console :
 ![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/b6e7ebea09d7f74a2731c0c469d6be627d20dcd3/screenshots/DMA_console.jpeg)
+
+RTL Schematic :
+![image alt]()
+
+Gate-level Netlist :
+![image alt]()
 
 ## Synthesis Flow
 The RTL was synthesized using:
