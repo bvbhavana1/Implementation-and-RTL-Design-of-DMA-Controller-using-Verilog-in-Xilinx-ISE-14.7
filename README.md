@@ -60,7 +60,7 @@ The main objectives of this project are:
 * Perform static timing analysis and identify the critical timing path.
 * Demonstrate a complete RTL → Simulation → Synthesis → Timing Analysis flow.
 
-## The Reports and Screenshots of this project are present above :
+## Repositary structure of the reports and screenshots af this project :
 ```text
 reports
 screenshots
@@ -586,7 +586,7 @@ Simulation Console :
 ![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/b6e7ebea09d7f74a2731c0c469d6be627d20dcd3/screenshots/DMA_console.jpeg)
 
 RTL Schematic :
-![image alt]()
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/26c69ee064359d46edc621125755cf437c9a8330/screenshots/DMA_gatelevel_netlist.jpeg)
 
 Gate-level Netlist :
 ![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/cabc5ac05274cb536f7c786344f8624d442919e2/screenshots/DMA_syn.jpeg)
