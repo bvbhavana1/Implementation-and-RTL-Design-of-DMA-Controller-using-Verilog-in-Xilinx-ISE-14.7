@@ -550,7 +550,7 @@ start
                             IDLE
 ```
 Simulation Waveform
-![image alt]()
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/efea2bba74e8b277329ff285db135f8c85392ee2/screenshots/DMA_waveform.jpeg)
 
 ### Simulation Console Output
 The testbench also monitors every memory transaction using $display.
