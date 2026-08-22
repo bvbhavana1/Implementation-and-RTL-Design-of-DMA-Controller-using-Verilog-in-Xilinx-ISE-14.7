@@ -1068,7 +1068,12 @@ The design was:
 The implementation provides a compact example of the complete path from Verilog RTL design to FPGA synthesis, timing analysis and resource evaluation.
 
 
-
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
 
 
 
