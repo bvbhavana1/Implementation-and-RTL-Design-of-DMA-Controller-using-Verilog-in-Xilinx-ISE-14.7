@@ -61,6 +61,39 @@ The main objectives of this project are:
 * Demonstrate a complete RTL → Simulation → Synthesis → Timing Analysis flow.
 
 ##  DMA Architecture
+## Architecture
+
+```mermaid
+flowchart TB
+    subgraph DMA["DMA controller"]
+        direction TB
+        FSM["FSM controller<br/>5-state control (IDLE→DONE)"]
+        DP["Datapath registers<br/>src_ptr, dst_ptr, count, buffer"]
+        MEM["Memory interface<br/>drives address, read/write, data"]
+        FSM --> DP --> MEM
+    end
+
+    CTRL["clk, reset, start"] --> FSM
+    ADDR["src_addr, dst_addr, length"] --> DP
+    DIN["mem_data_in"] --> MEM
+    FSM --> DONE["done"]
+    MEM --> BUS["mem_addr, mem_read/write, mem_data_out"]
+```
+![image alt]()
+| Signal          | Direction | Width |
+|------------------|-----------|:-----:|
+| `clk`            | Input     | 1     |
+| `reset`          | Input     | 1     |
+| `start`          | Input     | 1     |
+| `src_addr`       | Input     | 16    |
+| `dst_addr`       | Input     | 16    |
+| `length`         | Input     | 16    |
+| `mem_data_in`    | Input     | 8     |
+| `mem_addr`       | Output    | 16    |
+| `mem_data_out`   | Output    | 8     |
+| `mem_read`       | Output    | 1     |
+| `mem_write`      | Output    | 1     |
+| `done`           | Output    | 1     |
 
 The DMA controller operates between a control interface and a shared memory interface.
 The CPU or external controller programs the transfer parameters:
