@@ -1068,9 +1068,9 @@ The design was:
 The implementation provides a compact example of the complete path from Verilog RTL design to FPGA synthesis, timing analysis and resource evaluation.
 
 
-![image alt]()
-![image alt]()
-![image alt]()
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/2607c4a35509db315747742016b56f6018f8e75a/screenshots/DMA_top.jpeg)
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/2607c4a35509db315747742016b56f6018f8e75a/screenshots/DMA_waveform.jpeg)
+![image alt](https://github.com/bvbhavana1/Implementation-and-RTL-Design-of-DMA-Controller-using-Verilog-in-Xilinx-ISE-14.7/blob/2607c4a35509db315747742016b56f6018f8e75a/screenshots/DMA_gatelevel_netlist.jpeg)
 ![image alt]()
 ![image alt]()
 ![image alt]()
